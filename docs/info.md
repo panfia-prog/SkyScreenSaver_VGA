@@ -9,12 +9,22 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This project primarily uses the input pins, the following is what each input pin does:
+ui_in[0] - Day-Cycle (if on)/Night-Cycle (if off)
+ui_in[1] - Sunrise/Waning Crescent
+ui_in[2] - Early Morning/Third Quarter
+ui_in[3] - Morning/Waning Gibbous
+ui_in[4] - Midday/Full Moon
+ui_in[5] - Early Afternoon/Waxing Gibbous
+ui_in[6] - Late Afternoon/First Quarter
+ui_in[7] - Sunset/Waxing Crescent
+
+The output prioritizes the latter switches (i.e. if both ui_in[2] and ui_in[5] are on, it will output ui_in[5])
 
 ## How to test
 
-Explain how to use your project
+To be Added
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+N/A
