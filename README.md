@@ -1,6 +1,7 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
-# Tiny Tapeout Verilog Project Template
+# SkyScreenSaver_VGA
+This program utilizes the 8 input pins to change between the day-night cycle and the different phases in between. When ui_in[0] is off, it will show the night cycle. During this phase, the rest of the inputs will change the phases of the moon. When ui_in[0] is on, it will show the day cycle. During this phase, the rest of the inputs will change the colors of the sky and the sun. This project was created for the TinyTapeout IC Design BootCamp using Tiny Tapeout VGA Playground and Gemini.
 
 - [Read the documentation for project](docs/info.md)
 
