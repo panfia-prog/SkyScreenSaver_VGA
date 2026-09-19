@@ -22,14 +22,14 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "Day-Night-Cycle"
-  ui[1]: "Cycle-Phase-1"
-  ui[2]: "Cycle-Phase-2"
-  ui[3]: "Cycle-Phase-3"
-  ui[4]: "Cycle-Phase-4"
-  ui[5]: "Cycle-Phase-5"
-  ui[6]: "Cycle-Phase-6"
-  ui[7]: "Cycle-Phase-7"
+  ui[0]: "Out0"
+  ui[1]: "Out1"
+  ui[2]: "Out2"
+  ui[3]: "Out3"
+  ui[4]: "Out4"
+  ui[5]: "Out5"
+  ui[6]: "Out6"
+  ui[7]: "Out7"
 
   # Outputs
   uo[0]: "R1"
